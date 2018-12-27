@@ -102,7 +102,19 @@
             <div id="details_4"></div>
             <div id="details_5"></div>
             <div id="details_6"></div>    
-         
+            
+            <div>
+              <label>Accomodation required?</label>
+                  <label>
+                    <input class="with-gap" name="accomodation" type="radio"  value="Yes"/>
+                    <span>Yes</span>
+                  </label>
+
+                  <label>
+                    <input class="with-gap" name="accomodation" type="radio"  value="No"/>
+                    <span>No</span>
+                  </label>   
+            </div>
 
 <!--do not end div here-->  
 
@@ -121,21 +133,6 @@
         </div>
       </form>
       </div>
-    </div>
-
-    <div class="">
-      <h2>CONTACT US</h2>
-      <form action="contact_form_handler.php" method="POST">
-        <label>name</label>
-        <input type="text" name="name_contact" class="validate">
-        <label>email</label>
-        <input type="text" name="email_contact" class="validate">
-        <label>subject</label>
-        <input type="text" name="subject_contact" class="validate">
-        <label>message</label>
-        <textarea  class="materialize-textarea" name="message"></textarea>
-        <button type="submit" name="submit" class="btn-floating btn-large waves-effect waves-light red " >Submit</button>
-      </form>
     </div>
 
 
